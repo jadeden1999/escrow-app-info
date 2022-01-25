@@ -3,6 +3,7 @@ import NavBar from './components/NavBar'
 import LoginForm from './components/LoginForm'
 import PaymentForm from './components/PaymentForm'
 import ContractForm from './components/ContractForm'
+import ContractDone from './components/Contractdone'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import ContractReadOnly from './components/ContractReadOnly'
 
@@ -30,6 +31,7 @@ class App extends Component {
           <Route exact path="/payment" element={<PaymentForm />} />
           <Route exact path="/contractform" element={<ContractForm />} />
           <Route exact path="/contract" element={<ContractReadOnly />} />
+          <Route exact path="/contractdone" element={<ContractDone />} />
           <Route path="*" element={<LoginForm />} />
         </Routes>
 
