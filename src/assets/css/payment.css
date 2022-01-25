@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:600|Work+Sans:400,500,600,700&display=swap");
+
+body {
+  background: #ffffff;
+  font-family: "work sans";
+}
+
+html {
+  font-size: 100%;
+}
+
+#paymentform {
+  max-width: 500px;
+  min-width: 500px;
+  max-height: 700px;
+  width: 30%;
+  height: 60%;
+  margin: 100px auto;
+  background-color: #ffffff; 
+}
+
+ 
+#paymentform h2 {
+  font-family: "open sans", sans-serif;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+ 
+
+#paymentform .row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  padding: 0;
+}
+
+#paymentform .row input, #paymentform .row select {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgb(187 187 187 / 20%);
+  padding: 1rem;
+  border-radius: 5px;
+
+}
+
+
+#paymentform .row input:focus {
+  /* box-shadow: inset 0px -3px 0px 0px rgba(34, 193, 195, 0.7); */
+  outline: none;
+}
+
+#paymentform .row input::-webkit-input-placeholder {
+  opacity: 1;
+  transition: opacity 0.25s ease-out;
+}
+
+.row input:hover::-webkit-input-placeholder,
+.row input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+#paymentform .row label {
+  align-self: start;
+  padding-bottom: 0.5rem;
+  color: rgba(187, 187, 187, 0.9);
+}
+
+#paymentform .row button {
+  border-radius: 2px;
+  width: 100%;
+  height: 50px;
+  font-size: 1.3rem;
+  color: white;
+  font-weight: 700;
+  background: #5850ea;
+  border: 0px;
+  cursor: pointer;
+  transition: opacity 0.25s ease-out;
+  margin-top: 2rem;
+}
+
+#paymentform .row button:hover {
+  opacity: 0.8;
+}
+
+#paymentform #button {
+  padding-bottom: 1.5rem;
+}
+#paymentform .date-cvc{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+#paymentform .date-cvc .row{
+  flex: 0 0 50%;
+}
+
+ 
+ 
